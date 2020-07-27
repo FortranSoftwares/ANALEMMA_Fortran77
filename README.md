@@ -13,15 +13,15 @@ which will create PNG images of the analemma, the declination, and the equation 
 
 ## Usage:
 analemma ecc lon obliq where the optional input parameters are:
--ecc, the eccentricity;
--lon, the perihelion longitude in degrees;
--obliq, the axial obliquity in degrees;
+- ecc, the eccentricity;
+- lon, the perihelion longitude in degrees;
+- obliq, the axial obliquity in degrees;
 
 The program with no options uses the following default values:
 
--eccentricity = 0.01671;
--longitude of perihelion = 1.347 radians = 77.18 degrees;
--axial obliquity = 0.4091 radians = 23.44 degrees;
+- eccentricity = 0.01671;
+- longitude of perihelion = 1.347 radians = 77.18 degrees;
+- axial obliquity = 0.4091 radians = 23.44 degrees;
 Licensing:
 The computer code and data files described and made available on this web page are distributed under the MIT license.
 
@@ -36,19 +36,19 @@ Astronomical Games, August 2002,
 http://www.astronomycorner.net/games/analemma.html.
 
 ## Source Code:
-analemma.f, the source code.
-analemma.sh, BASH commands to compile the source code.
+- analemma.f, the source code.
+- analemma.sh, BASH commands to compile the source code.
 
 ## Examples and Tests:
-analemma_data.txt the data file.
-analemma_commands.txt, the command file.
-analemma.png, the PNG file of the analemma, created by GNUPLOT.
-declination.png, the PNG file of the declination, created by GNUPLOT.
-eot.png, the PNG file of the equation of time, created by GNUPLOT.
+- analemma_data.txt the data file.
+- analemma_commands.txt, the command file.
+- analemma.png, the PNG file of the analemma, created by GNUPLOT.
+- declination.png, the PNG file of the declination, created by GNUPLOT.
+- eot.png, the PNG file of the equation of time, created by GNUPLOT.
 
 ## List of Routines:
-**MAIN** is the main program for ANALEMMA.
-**GET_UNIT** returns a free FORTRAN unit number.
-**S_TO_R8** reads an R8 value from a string.
-**TIMESTAMP** prints the current YMDHMS date as a time stamp.
+- **MAIN** is the main program for ANALEMMA.
+- **GET_UNIT** returns a free FORTRAN unit number.
+- **S_TO_R8** reads an R8 value from a string.
+- **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
