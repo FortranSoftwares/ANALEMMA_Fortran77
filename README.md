@@ -26,8 +26,9 @@ Licensing:
 The computer code and data files described and made available on this web page are distributed under the MIT license.
 
 
-Author:
-Original C version by Brian Tung. FORTRAN77 version by Sourangshu Ghosh.
+## Author:
+Original C version by Brian Tung. 
+FORTRAN77 version by Sourangshu Ghosh.
 
 ## Reference:
 Brian Tung,
