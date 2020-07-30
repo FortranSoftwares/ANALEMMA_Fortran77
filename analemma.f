@@ -10,7 +10,7 @@ c    This code is distributed under the GNU LGPL license.
 c
 c  Modified:
 c
-c    06 January 2013
+c   Sourangshu Ghosh
 c
 c  Author:
 c
